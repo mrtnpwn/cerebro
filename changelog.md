@@ -2,4 +2,5 @@
 
 ## v1.0.0
 
-- add:
+- add: lua target
+- add: binary compiler
