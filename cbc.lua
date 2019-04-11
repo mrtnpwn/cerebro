@@ -40,7 +40,19 @@ Compiler for the cerebro language
 local code, eval = cerebro.compile(file.read(args.program))
 
 if args.output then
+    xpcall(function()
+        eval()
+    end, function(err)
+        print('cbc: compilation failed')
+        os.exit(1)
+    end)
+
     file.write(args.output, code)
 else
-    eval()
+    xpcall(function()
+        eval()
+    end, function(err)
+        print('cbc: execution failed (check the source code for errors)')
+        os.exit(1)
+    end)
 end
