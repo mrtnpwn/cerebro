@@ -25,5 +25,6 @@ luarocks install cerebro
 ## Usage
 
 1. Write your program
-2. `cbc my_program.crb -o test.lua` for compile in lua, `cbc my_program.crb` for interpret.
-3. Profit!
+2. `cbc my_program.crb -o main.lua`
+3. `lua main.lua`
+4. Profit!
