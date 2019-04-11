@@ -11,7 +11,7 @@ The function declaration starts with a parenthesis
     >++++++++[>++++[>++>+++>+++>+<<<<-]>+>+>->>+[<]<-]>>.>---.+++++++..+++.>>.<-.<.+++.------.--------.>>+.>++.
 )
 
-! Run the function
+! Runs the function
 
 Every function has its own tape.
 ```
