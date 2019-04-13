@@ -19,6 +19,8 @@ cerebro has the same Brainfuck opcodes, but addd new ones to complement the lang
 `?`: move to a random cell
 `#`: exit the program
 `:`: same as `.` but it prints the numeric value instead
+`#include`: include instructiones from another program (ex: `#include "program.cerebro"`)
+`#error`: throw a compiler error (ex: `#error "a compier error"`)
 
 ## Usage
 
@@ -31,7 +33,7 @@ lua main.lua # Profit!
 ## Todo
 
 - Add multiple compilation targets (JS, C, others)
-- Add more directives (`#if`, `#else`)
+- Add more directives (`#if`, `#else`, `#target`)
 
 ## License
 
