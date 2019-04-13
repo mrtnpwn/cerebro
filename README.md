@@ -12,15 +12,23 @@ luarocks install cerebro
 
 cerebro has the same Brainfuck opcodes, but addd new ones to complement the language:
 
-`{...}`: create a function and store it into the current cell
-`@`: execute a function stored in the current cell
-`~`: reset the current cell to 0
-`*`: multiply the cell value with itself and store the result in the current cell (cell * cell)
-`?`: move to a random cell
-`#`: exit the program
-`:`: same as `.` but it prints the numeric value instead
-`#include`: include instructiones from another program (ex: `#include "program.cerebro"`)
-`#error`: throw a compiler error (ex: `#error "a compier error"`)
+- `{...}`: create a function and store it into the current cell
+
+- `@`: execute a function stored in the current cell
+
+- `~`: reset the current cell to 0
+
+- `*`: multiply the cell value with itself and store the result in the current cell (cell * cell)
+
+- `?`: move to a random cell
+
+- `#`: exit the program
+
+- `:`: same as `.` but it prints the numeric value instead
+
+- `#include`: include instructiones from another program (ex: `#include "program.cerebro"`)
+
+- `#error`: throw a compiler error (ex: `#error "a compier error"`)
 
 ## Usage
 
