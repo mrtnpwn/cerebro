@@ -1,0 +1,9 @@
+There are two ways for declaring comments in cerebro
+
+/* 
+    Using C-like comments to use reserved symbols
+*/
+
+or the normal way
+
+but this way will throw errors if you use any of the reserved symbols

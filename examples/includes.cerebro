@@ -1,0 +1,7 @@
+You can include other programs by using the include directive
+
+#include "examples/functions.cerebro"
+
+Now this will print a Hello World program that got stored in the first cell
+
+@

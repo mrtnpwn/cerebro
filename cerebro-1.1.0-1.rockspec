@@ -1,24 +1,21 @@
 package = "cerebro"
-version = "1.0.0-1"
+version = "1.1.0-1"
 source = {
    url = "git+https://github.com/mrtnpwn/cerebro.git"
 }
 description = {
-   summary = "A tiny Brainfuck dialect in pure Lua.",
+   summary = "A Brainfuck dialect that compiles to Lua.",
    homepage = "https://github.com/mrtnpwn/cerebro",
    license = "Unlicense"
 }
 dependencies = {
-   "penlight >= 1.5.4"
+   "lua >= 5.1"
 }
 build = {
    type = "builtin",
-   modules = {
-      cerebro = "cerebro.lua"
-   },
    install = {
       bin = {
-         ["cbc"] = "cbc.lua"
+         ["cerebro"] = "cerebro.lua"
       }
    }
 }
