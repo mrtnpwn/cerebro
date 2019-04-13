@@ -13,6 +13,9 @@ dependencies = {
 }
 build = {
    type = "builtin",
+   modules = {
+      cerebro = "cerebro.lua"
+   },
    install = {
       bin = {
          ["cerebro"] = "cerebro.lua"

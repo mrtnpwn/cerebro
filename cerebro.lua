@@ -297,4 +297,8 @@ end
 
 --print(cerebro('{+}', 'debug'))
 
-cli(arg)
+if arg and #arg > 0 then
+	cli(arg)
+else
+	return cerebro
+end
